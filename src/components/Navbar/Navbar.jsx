@@ -35,16 +35,16 @@ const Navbar = () => {
         <>
 
             {/* Daisy  */}
-            <nav className='bg-white fixed w-full top-0'>
-              <div class="navbar w-11/12 mx-auto shadow-sm">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <nav className='bg-white fixed w-full top-0 z-50'>
+              <div className="navbar w-11/12 mx-auto shadow-sm">
+                <div className="navbar-start">
+                  <div className="dropdown">
+                    <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
                       <Menu  className='text-black'/>
                     </div>
                     <ul
-                      tabindex="-1"
-                      class="menu menu-sm text-white dropdown-content bg-white rounded-box z-1 mt-3 w-52 p-2 shadow">
+                      tabIndex="-1"
+                      className="menu menu-sm text-white dropdown-content bg-white rounded-box z-1 mt-3 w-52 p-2 shadow">
                       {
                           navLinks.map(items => <NavLinks key={items.id} items={items}></NavLinks>)
                         }
@@ -62,16 +62,16 @@ const Navbar = () => {
                       <h1 className='hover:text-orange-500 text-black transition-all font-bold text-2xl'>mealHub</h1>
                   </div>
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 flex gap-5">
+                <div className="navbar-center hidden lg:flex">
+                  <ul className="menu menu-horizontal px-1 flex gap-5">
                     {
                           navLinks.map(items => <NavLinks key={items.id} items={items}></NavLinks>)
                       }
                   </ul>
                 </div>
-                <div class="navbar-end flex gap-4">
+                <div className="navbar-end flex gap-4">
                   <ShoppingCart className='text-black'/>
-                  <a class="btn bg-orange-500 shadow-md shadow-orange-500/50 border-none hover:scale-105 transition-all duration-300">
+                  <a className="btn bg-orange-500 shadow-md shadow-orange-500/50 border-none hover:scale-105 transition-all duration-300">
                     Sign Up
                   </a>
                 </div>
