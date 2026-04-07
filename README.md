@@ -1,6 +1,6 @@
 <!-- Animated Project Title -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=2500&pause=1000&color=FF7F50&center=true&vCenter=true&width=600&lines=🍽️+MealHub+Project" alt="Typing Title">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=2500&pause=1000&color=FF7F50&center=true&vCenter=true&width=600&lines=%F0%9F%8D%BD+MealHub+Project" alt="Typing Title">
 </h1>
 
 ---
