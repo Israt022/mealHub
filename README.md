@@ -1,16 +1,51 @@
-# React + Vite
+<!-- Animated Project Title -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=2500&pause=1000&color=FF7F50&center=true&vCenter=true&width=600&lines=🍽️+MealHub+Project+by+Israt+Jahan" alt="Typing Title">
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 📝 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+MealHub allows users to search and view meals dynamically fetched from an API, add items to a cart, and receive notifications. Built to strengthen React fundamentals and learn efficient component structuring.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚡ Features
 
-## Expanding the ESLint configuration
+- Fetch meal data dynamically from an API using **Axios**, **React use**, and **Suspense**  
+- Search meals and display results using reusable **Meal Cards**  
+- Add items to cart with notifications using **Toastify**  
+- Icons integrated with **Lucide Icons**  
+- Quick styling with **DaisyUI** and **TailwindCSS**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Tech Stack
+
+- **React**  
+- **JavaScript (ES6+)**  
+- **Axios**  
+- **TailwindCSS**  
+- **DaisyUI**  
+- **Toastify**  
+- **Lucide Icons**
+
+---
+
+## 🎯 Learning Outcomes
+
+- Fetching and rendering API data **without useEffect**  
+- Managing state across multiple components  
+- Building clean, functional layouts with minimal styling effort  
+- Understanding reusable component structure
+
+
+
+## 🛠️ Installation & Setup
+
+```bash
+git clone https://github.com/Israt022/MealHub.git
+cd MealHub
+npm install
+npm start
